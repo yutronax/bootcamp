@@ -11,32 +11,34 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 📊 Toplantı Analitiği: Katılım ve önemli noktaları takip edin
 💾 Otomatik Dışa Aktarım: PDF, Word ve JSON formatları
 
-🏗️ Proje Yapısı
-# meetai/
-├── chrome-extension/           # Chrome uzantısı kaynak kodu
+
+## Proje Yapısı
+meetai/
+├── chrome-extension/           # Uzantı manifest dosyası
 │   ├── manifest.json          # Uzantı manifest dosyası
 │   ├── popup/                 # Uzantı popup arayüzü
 │   ├── content/               # İçerik scriptleri
 │   └── background/            # Arkaplan scriptleri
-# ├── backend/                   # Node.js backend
+├── backend/                   # Node.js backend
 │   ├── src/
-│   │   ├── controllers/       # API controller'ları
+│   │   ├── controllers/       # API controller’ları
 │   │   ├── services/          # İş mantığı
-│   │   ├── models/           # Veri modelleri
+│   │   ├── models/            # Veri modelleri
 │   │   └── utils/            # Yardımcı fonksiyonlar
 │   ├── package.json
 │   └── server.js
-# ├── ai-services/               # Yapay zeka işleme servisleri
+├── ai-services/               # Yapay zeka işleme servisleri
 │   ├── transcription/         # Ses-metin servisi
 │   ├── summarization/         # Metin özetleme
-│   └── qa-bot/               # Soru-cevap chatbot
-# ├── frontend/                  # React dashboard (opsiyonel)
+│   └── qa-bot/               # Soru-cevap chatbot'u
+├── frontend/                  # React dashboard (opsiyonel)
 │   ├── src/
 │   ├── public/
 │   └── package.json
-# ├── docs/                      # Dokümantasyon
-# ├── tests/                     # Test dosyaları
-# └── README.md
+├── docs/                      # Dokümantasyon
+├── tests/                     # Test dosyaları
+└── README.md
+
 
 🛠️ Teknoloji Yığını
 Frontend
