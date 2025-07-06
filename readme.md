@@ -18,7 +18,7 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 │   ├── popup/                 # Uzantı popup arayüzü
 │   ├── content/               # İçerik scriptleri
 │   └── background/            # Arkaplan scriptleri
-├── backend/                   # Node.js backend
+# ├── backend/                   # Node.js backend
 │   ├── src/
 │   │   ├── controllers/       # API controller'ları
 │   │   ├── services/          # İş mantığı
@@ -26,17 +26,17 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 │   │   └── utils/            # Yardımcı fonksiyonlar
 │   ├── package.json
 │   └── server.js
-├── ai-services/               # Yapay zeka işleme servisleri
+# ├── ai-services/               # Yapay zeka işleme servisleri
 │   ├── transcription/         # Ses-metin servisi
 │   ├── summarization/         # Metin özetleme
 │   └── qa-bot/               # Soru-cevap chatbot
-├── frontend/                  # React dashboard (opsiyonel)
+# ├── frontend/                  # React dashboard (opsiyonel)
 │   ├── src/
 │   ├── public/
 │   └── package.json
-├── docs/                      # Dokümantasyon
-├── tests/                     # Test dosyaları
-└── README.md
+# ├── docs/                      # Dokümantasyon
+# ├── tests/                     # Test dosyaları
+# └── README.md
 
 🛠️ Teknoloji Yığını
 Frontend
