@@ -3,7 +3,7 @@
 ## Sprint Bilgileri
 - **Sprint No:** 1
 - **Sprint Süresi:** 20 Haziran - 6 Temmuz (2 hafta)
-- **Takım:** AI Duo (Yusuf Çınar, Tuğberk Şentepe)
+- **Takım:** DataTwins (Yusuf Çınar, Tuğberk Şentepe)
 - **Sprint Hedefi:** MVP (Minimum Viable Product) geliştirmek
 
 ## Sprint Hedefi
