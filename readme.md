@@ -13,6 +13,7 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 
 
 ## Proje Yapısı
+'''
 meetai/
 ├── chrome-extension/           # Uzantı manifest dosyası
 │   ├── manifest.json          # Uzantı manifest dosyası
@@ -39,6 +40,7 @@ meetai/
 ├── tests/                     # Test dosyaları
 └── README.md
 
+'''
 
 🛠️ Teknoloji Yığını
 Frontend
