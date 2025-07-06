@@ -13,7 +13,7 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 
 
 ## Proje Yapısı
-'''
+```
 meetai/
 ├── chrome-extension/           # Uzantı manifest dosyası
 │   ├── manifest.json          # Uzantı manifest dosyası
@@ -25,13 +25,13 @@ meetai/
 │   │   ├── controllers/       # API controller’ları
 │   │   ├── services/          # İş mantığı
 │   │   ├── models/            # Veri modelleri
-│   │   └── utils/            # Yardımcı fonksiyonlar
+│   │   └── utils/             # Yardımcı fonksiyonlar
 │   ├── package.json
 │   └── server.js
 ├── ai-services/               # Yapay zeka işleme servisleri
 │   ├── transcription/         # Ses-metin servisi
 │   ├── summarization/         # Metin özetleme
-│   └── qa-bot/               # Soru-cevap chatbot'u
+│   └── qa-bot/                # Soru-cevap chatbot'u
 ├── frontend/                  # React dashboard (opsiyonel)
 │   ├── src/
 │   ├── public/
@@ -39,8 +39,7 @@ meetai/
 ├── docs/                      # Dokümantasyon
 ├── tests/                     # Test dosyaları
 └── README.md
-
-'''
+```
 
 🛠️ Teknoloji Yığını
 Frontend
