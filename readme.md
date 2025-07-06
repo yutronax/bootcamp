@@ -1,7 +1,6 @@
-#sskjsn
-  #MeetAI - Yapay Zeka Destekli Toplantı Asistanı
-🎯 Online toplantılar için gerçek zamanlı transkripsiyon, özetleme ve akıllı soru-cevap
-🚀 Proje Genel Bakış
+
+# MeetAI - Yapay Zeka Destekli Toplantı Asistanı
+🎯 Proje Genel Bakış
 MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dönüştüren bir Chrome uzantısıdır. Canlı transkripsiyon, her 5 saniyede otomatik özetler ve toplantı içeriğini anlayan akıllı soru-cevap botu ile toplantılarınızı verimli hale getirin.
 ✨ Temel Özellikler
 
@@ -13,7 +12,7 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 💾 Otomatik Dışa Aktarım: PDF, Word ve JSON formatları
 
 🏗️ Proje Yapısı
-#meetai/
+# meetai/
 ├── chrome-extension/           # Chrome uzantısı kaynak kodu
 │   ├── manifest.json          # Uzantı manifest dosyası
 │   ├── popup/                 # Uzantı popup arayüzü
@@ -38,6 +37,7 @@ MeetAI, online toplantılarınızı gerçek zamanlı yapay zeka desteğiyle dön
 ├── docs/                      # Dokümantasyon
 ├── tests/                     # Test dosyaları
 └── README.md
+
 🛠️ Teknoloji Yığını
 Frontend
 
@@ -66,71 +66,68 @@ API Anahtarları (Google Cloud / OpenAI)
 
 Kurulum
 
-Depoyu klonlayın
-
-bashgit clone https://github.com/kullaniciadi/meetai.git
+Depoyu klonlayın:git clone https://github.com/kullaniciadi/meetai.git
 cd meetai
 
-Backend bağımlılıklarını yükleyin
 
-bashcd backend
+Backend bağımlılıklarını yükleyin:cd backend
 npm install
 
-Frontend bağımlılıklarını yükleyin
 
-bashcd ../frontend
+Frontend bağımlılıklarını yükleyin:cd ../frontend
 npm install
 
-Ortam değişkenlerini ayarlayın
 
-bash# backend/ içinde .env dosyası oluşturun
+Ortam değişkenlerini ayarlayın:# backend/ içinde .env dosyası oluşturun
 cp .env.example .env
 # API anahtarlarınızı ekleyin
 
-Chrome Uzantısını yükleyin
 
-
+Chrome Uzantısını yükleyin:
 Chrome'u açın → Uzantılar → Geliştirici Modu
 "Paketlenmemiş yükle" → chrome-extension/ klasörünü seçin
 
-Geliştirme
-bash# Backend sunucusunu başlatın
+
+
+## Geliştirme
+Backend sunucusunu başlatın
 cd backend
 npm run dev
 
-# Frontend'i başlatın (dashboard kullanıyorsanız)
+## Frontend'i başlatın (dashboard kullanıyorsanız)
 cd frontend
 npm start
 
-# Uzantıyı derleyin
+## Uzantıyı derleyin
 cd chrome-extension
 npm run build
-🌟 Özellik Yol Haritası
+
+## Özellik Yol Haritası
 1. Aşama: MVP (Hafta 1-2)
 
- Temel Chrome uzantısı kurulumu
- Gerçek zamanlı ses yakalama
- Ses-metin entegrasyonu
- Basit özetleme
- Temel popup arayüzü
+Temel Chrome uzantısı kurulumu
+Gerçek zamanlı ses yakalama
+Ses-metin entegrasyonu
+Basit özetleme
+Temel popup arayüzü
 
 2. Aşama: Temel Özellikler (Hafta 3-4)
 
- 5 saniyede akıllı özetler
- Soru-cevap bot implementasyonu
- Çoklu platform desteği
- Dışa aktarım işlevi
- Kullanıcı kimlik doğrulama
+5 saniyede akıllı özetler
+Soru-cevap bot implementasyonu
+Çoklu platform desteği
+Dışa aktarım işlevi
+Kullanıcı kimlik doğrulama
 
 3. Aşama: Gelişmiş Özellikler (Hafta 5-6)
 
- Toplantı analitiği
- Takım işbirliği
- Özel yapay zeka modelleri
- Gelişmiş dışa aktarım seçenekleri
- Mobil uygulama
+Toplantı analitiği
+Takım işbirliği
+Özel yapay zeka modelleri
+Gelişmiş dışa aktarım seçenekleri
+Mobil uygulama
 
-📊 Demo Day Sunumu
+## Demo Day Sunumu
 Canlı Demo Senaryosu
 
 Toplantı Başlat: Google Meet çağrısına katılın
@@ -139,16 +136,16 @@ Akıllı Özetler: 5 saniyede güncellemeleri gösterin
 Soru-Cevap Bot: Akıllı sorular sorun
 Sonuçları Dışa Aktar: Toplantı özetini indirin
 
-Sunulacak Temel Metrikler
+### Sunulacak Temel Metrikler
 
 Zaman Tasarrufu: Toplantı başına ortalama 15-20 dakika
 Doğruluk: %95+ transkripsiyon doğruluğu
 Katılım: Toplantı katılımında %40 artış
 Yatırım Getirisi: Çalışan başına aylık $500+ tasarruf
 
-🔧 API Dokümantasyonu
+## API Dokümantasyonu
 Temel Endpoint'ler
-javascript// Toplantı oturumu başlat
+// Toplantı oturumu başlat
 POST /api/meetings/start
 {
   "meetingId": "string",
@@ -172,7 +169,8 @@ POST /api/qa/ask
   "question": "string",
   "sessionId": "string"
 }
-🤝 Katkıda Bulunma
+
+## Katkıda Bulunma
 
 Depoyu fork edin
 Feature branch'inizi oluşturun (git checkout -b feature/HarikaOzellik)
@@ -180,29 +178,30 @@ Değişikliklerinizi commit edin (git commit -m 'Harika özellik eklendi')
 Branch'inizi push edin (git push origin feature/HarikaOzellik)
 Pull Request açın
 
-📝 Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakın.
-🎯 Hackathon Jüri Notları
-İnovasyon Puanı
+
+## Hackathon Jüri Notları
+### İnovasyon Puanı
 
 Problem: Remote work'teki gerçek sorunu ele alıyor
 Çözüm: 5 saniyede özetleme ile yenilikçi yaklaşım
 Teknoloji: Son teknoloji yapay zeka entegrasyonu
 
-Teknik Karmaşıklık
+### Teknik Karmaşıklık
 
 Gerçek Zamanlı İşleme: WebSocket + streaming yapay zeka
 Çok Modlu Yapay Zeka: Ses + metin + bağlam anlama
 Ölçeklenebilirlik: Mikroservis mimarisi
 
-İş Potansiyeli
+### İş Potansiyeli
 
 Pazar Büyüklüğü: 2.8 milyar dolarlık toplantı yazılımı pazarı
 Gelir Modeli: Freemium model, kurumsal planlar
 Rekabet: Gerçek zamanlı zeka ile farklılaşma
 
-#Demo Etkisi
+### Demo Etkisi
 
 Canlı Demo: Gerçek toplantıda çalışıyor
 Kullanıcı Deneyimi: Sezgisel ve sorunsuz
 Değer Önerisi: Net zaman ve verimlilik faydaları
+
+```**
