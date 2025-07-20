@@ -1,7 +1,4 @@
-İşte verdiğin içeriği `.md` (Markdown) formatında hazırlanmış bir dosya olarak yazdım:
 
-````markdown
-# 🎯 2. Sprint Raporu
 
 **Takım:**  
 - Yusuf Çınar (Scrum Master)  
@@ -53,51 +50,3 @@ def process_audio(audio_chunk):
         prompt=f"5 saniyelik özet: {transcription}"
     )
     return summary
-````
-
-### Kullanılan Teknolojiler:
-
-* **Frontend:** Vanilla JS + WebSocket
-* **Backend:** Node.js + Express
-* **AI Servisler:** Gemini Pro, Google STT
-
----
-
-
-
-## 📌 Sonraki Adımlar
-
-**3. Sprint Öncelikleri:**
-
-* WebSocket performans iyileştirmesi
-* Soru-Cevap botu entegrasyonu
-* Cross-platform (Zoom/Teams) desteği
-
-**Demo Hazırlıkları:**
-
-* 1 dakikalık tanıtım videosu storyboard'u
-* Jüri sunum slayt taslağı
-
----
-
-## ✨ Takım Görüşleri
-
-> "Transkripsiyon modülünün başarıyla çalışması motivasyonumuzu artırdı. Önümüzdeki sprintte kullanıcı deneyimine odaklanacağız."
-> — **Yusuf Çınar (Scrum Master)**
-
-> "AI modüllerinin entegrasyonunda öğrendiğimiz best practice'leri GitHub wiki'ye ekledik."
-> — **Tuğberk Sentepe (Developer)**
-
----
-
-## 📁 Teslim Bilgileri
-
-
-* **Son Teslim Tarihi:** 20 Temmuz 23:59
-* **Scrum Master Onayı:** Yusuf Çınar
-* **Developer Onayı:** Tuğberk Sentepe
-
-```
-
-İstersen bu içeriği `.md` uzantılı bir dosya olarak da sana verebilirim. Dilersen dosya olarak hazırlayayım.
-```
