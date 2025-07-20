@@ -27,7 +27,7 @@
 
 **Diagram:** Code  
 ---
-![Görev Diagramı][bootcamp/SPRİNT_2/diagram]
+![Görev Diagramı][SPRİNT_2/diagram.png]
 
 ---
 
