@@ -26,7 +26,8 @@
 ## 📊 Gelişim Metrikleri  
 
 **Diagram:** Code  
-_(Henüz görsel eklenmedi)_
+---
+![Görev Diagramı][bootcamp/SPRİNT_2/diagram]
 
 ---
 
