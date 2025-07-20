@@ -29,7 +29,7 @@
 ---
 ![Görev Diagramı][diagram]
 
-[diagram]: SPRINT_2/diagram.png
+[diagram]: SPRİNT_2/diagram.png
 
 
 ---
