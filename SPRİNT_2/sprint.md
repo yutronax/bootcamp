@@ -27,7 +27,10 @@
 
 **Diagram:** Code  
 ---
-![Görev Diagramı][SPRİNT_2/diagram.png]
+![Görev Diagramı][diagram]
+
+[diagram]: SPRINT_2/diagram.png
+
 
 ---
 
